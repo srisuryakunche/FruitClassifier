@@ -44,7 +44,7 @@ pip package manager
 Setup Steps
 Clone the Repository
 
-git clone https://github.com/Nirikshan95/FruitClassifier.git
+git clone https://github.com/srisuryakunche/FruitClassifier.git
 cd FruitClassifier
 Install Dependencies
 
@@ -71,8 +71,8 @@ DATA_DIR = "./data"
 ZIP_FILE_PATH = "./data/archive (6).zip"
 TRAINING_DATA = "./data/MY_data/train/"
 TESTING_DATA = "./data/MY_data/test/"
-PREDICTION_DATA = "./data/MY_data/prediction/"
-MODEL_SAVE_PATH = "./trained models/fruit_classifier_model.h5"
+PREDICTION_DATA = "./data/MY_data/predict/"
+MODEL_SAVE_PATH = "./trainedmodels/fruit_classifier_model.h5"
 MODEL_HISTORY_PATH = "./results/classifier_history.json"
 MODEL_ARCHITECTURE_PATH="./results/model_architecture.json"
 SAMPLE_PLOT_PATH="./results/plots/sample_plot.png"
